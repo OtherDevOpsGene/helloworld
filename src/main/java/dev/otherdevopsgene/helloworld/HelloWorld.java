@@ -1,4 +1,4 @@
-package com.steampunk.helloworld;
+package dev.otherdevopsgene.helloworld;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -9,6 +9,6 @@ public class HelloWorld {
     final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
-    System.out.println("Hello, World! The current time is " + dtf.format(now));
+    System.out.println("Hello, world! The current time is " + dtf.format(now));
   }
 }
